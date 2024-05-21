@@ -56,7 +56,7 @@ bain_test/
    ```bash
    docker run --rm -v $(PWD)/model:/app/model bain_test python model/train_model.py
    ```
-   or to use the db
+   or to use a DataBank
    ```bash
    docker run --rm -v $(PWD)/model:/app/model bain_test python model/train_model.py --from_db=True
    ```
@@ -66,7 +66,7 @@ bain_test/
    ```bash
    docker run --rm -v $(PWD)/model:/app/model bain_test python model/evaluate_model.py
    ```
-   or tu use the db
+   or to use a DataBank
    ```bash
    docker run --rm -v $(PWD)/model:/app/model bain_test python model/evaluate_model.py --from_db=True
    ```
