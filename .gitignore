@@ -1,0 +1,17 @@
+# Ignore data files
+data/train.csv
+data/test.csv
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore environment files
+.env
+env
+api_keys.env
+
+# Ignore model files
+model/model.joblib
+
+# Ignore system files
+.DS_Store
