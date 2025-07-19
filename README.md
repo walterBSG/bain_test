@@ -1,5 +1,5 @@
 
-# Bain Test Real Estate Model
+# Test Real Estate Model
 
 This repository contains the code for a property valuation model for residential properties in Chile. The project includes a training pipeline and an API for making predictions.
 
